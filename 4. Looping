@@ -27,3 +27,16 @@ func main(){
   ::
   }
   
+-------------------------------
+
+If Condition
+
+if x<10 {
+
+}
+
+Can include statements in if conditions
+
+ if v:= math.Pow(x,h); v<lin {
+ return v
+ }
