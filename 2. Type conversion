@@ -12,6 +12,13 @@ Eg:-
   int, float = 0
   bool = false
   string = ""
+  
+  
+## Type Inference
+
+i := 42           // int
+f := 3.142        // float64
+g := 0.867 + 0.5i // complex128
 
 
 * Sample Program *
