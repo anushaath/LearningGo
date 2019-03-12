@@ -1,0 +1,9 @@
+func add (x int, y int) int{
+    return x+y }
+
+func swap (x, y int) (int, int) {
+    return y , x
+    }
+
+
+The return type comes at the end of the function definition
