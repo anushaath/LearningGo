@@ -1,0 +1,29 @@
+### For Loop
+
+func main(){
+
+  sum:= 0
+  for i:= 0; i<10; i++ {
+    sum+= i
+  }
+  fmt.Println(sum)
+}
+
+### For loop without init and increment operator is a while loop
+
+  for ; sum<1000 ; {
+  sum+=sum
+  }
+  
+  ///// Same as
+  
+  for sum<1000 {
+  sum+=sum
+  }
+
+### Forever loop
+
+  for {
+  ::
+  }
+  
