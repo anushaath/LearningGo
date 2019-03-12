@@ -1,0 +1,31 @@
+## Switch statements similar to other languages
+
+switch i =0 {
+case 0:
+default:
+
+}
+ OR
+ 
+switch os:= runtime.GOOS; os{
+case "darwin": 
+//print
+case "linux":
+//print
+default:
+//print
+
+
+---------------------------------------
+
+### New concept- Defer
+Defers the execution of that function untill surrounding function finish. concecutive defer statements will be stacked up. Last-in-first-out
+
+func main()
+{
+  defer fmt.Println("World")
+  fmt.Println("Hello")
+}
+
+>>>> Hello
+World
