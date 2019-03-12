@@ -1,0 +1,14 @@
+Conversion happens by putting the variable within the braces of type.
+
+Eg:-
+
+  x int = 4
+  c float64 = float64(x)
+  d uint = uint(c)
+  
+  
+# Zero Values
+
+  int, float = 0
+  bool = false
+  string = ""
